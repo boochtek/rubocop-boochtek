@@ -1,0 +1,8 @@
+---
+# Use our own configuration for this gem.
+inherit_from:
+  - config/default.yml
+
+AllCops:
+  TargetRubyVersion: 3.1
+  NewCops: enable
