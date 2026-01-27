@@ -7,6 +7,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.1] - 2025-01-26
+
+### Fixed
+- Fix `Boochtek/CompactEndlessMethods` crash with Ruby 4.0/Prism parser when
+  `private def foo = bar` syntax is used (siblings can be Symbols, not AST nodes)
+
+## [0.2.0] - 2024-12-06
+
+### Added
+- `Boochtek/CompactEndlessMethods` cop to remove blank lines between consecutive
+  endless method definitions
+
 ## [0.1.0] - 2024-12-05
 
 ### Added
